@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    background-image: url('https://www.transparenttextures.com/patterns/geometry.png');
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 1rem 0;
+    border-bottom: 2px solid #6b7b78;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #6b7b78;
+}
+
+.cv-main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.cv-main h1 {
+    margin-bottom: 10px;
+}
+
+.cv-main p {
+    margin-bottom: 20px;
+}
+
+
+.cv-preview {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
